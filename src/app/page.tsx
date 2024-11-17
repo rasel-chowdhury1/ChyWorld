@@ -4,7 +4,7 @@ const Homepage = () => {
   return (
     <div className='flex gap-6 pt-6'>
       <div className="hidden xl:block w-[20%]">
-        <div>Left menu</div>
+      <LeftMenu type="home" />
       </div>
       <div className="w-full lg:w-[70%] xl:w-[50%]">
         <div>stories</div>
